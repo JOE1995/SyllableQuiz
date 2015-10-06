@@ -1,0 +1,33 @@
+
+/* Class = "UITextView"; text = "音節の数が正しいものを選択肢から選ぼう"; ObjectID = "1xT-eD-9jC"; */
+"1xT-eD-9jC.text" = "音節の数が正しいものを選択肢から選ぼう";
+
+/* Class = "UILabel"; text = "正解数は\\(correctAnswer)問です。"; ObjectID = "6K3-DK-2Zg"; */
+"6K3-DK-2Zg.text" = "正解数は\\(correctAnswer)問です。";
+
+/* Class = "UILabel"; text = "30"; ObjectID = "FEg-Lx-vCv"; */
+"FEg-Lx-vCv.text" = "30";
+
+/* Class = "UIButton"; normalTitle = "スタート画面に戻る"; ObjectID = "Ju6-tR-J9K"; */
+"Ju6-tR-J9K.normalTitle" = "スタート画面に戻る";
+
+/* Class = "UILabel"; text = "問題文"; ObjectID = "O5l-DN-th0"; */
+"O5l-DN-th0.text" = "問題文";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "PmJ-Ag-WUY"; */
+"PmJ-Ag-WUY.normalTitle" = "2";
+
+/* Class = "UITextView"; text = "間違えるとライフポイントが１つ減ってしまう\nライフポイントが０にならないように正解を選んで、\n制限時間以内にゴールを目指せ！"; ObjectID = "RJf-eT-RAE"; */
+"RJf-eT-RAE.text" = "間違えるとライフポイントが１つ減ってしまう\nライフポイントが０にならないように正解を選んで、\n制限時間以内にゴールを目指せ！";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "YVE-KS-Bof"; */
+"YVE-KS-Bof.normalTitle" = "3";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dcA-zC-Qtu"; */
+"dcA-zC-Qtu.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "oMJ-VR-dtD"; */
+"oMJ-VR-dtD.normalTitle" = "1";
+
+/* Class = "UILabel"; text = "合格回数は\\(clearTimes)回です。"; ObjectID = "tZe-w7-s4U"; */
+"tZe-w7-s4U.text" = "合格回数は\\(clearTimes)回です。";

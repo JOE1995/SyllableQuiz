@@ -7,12 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0173F8D1BBFB74E00790213 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = C0173F8C1BBFB74E00790213 /* button.png */; };
+		C0173F8F1BBFB75B00790213 /* START.png in Resources */ = {isa = PBXBuildFile; fileRef = C0173F8E1BBFB75B00790213 /* START.png */; };
+		C0173F911BBFCA1B00790213 /* gage Frame.png in Resources */ = {isa = PBXBuildFile; fileRef = C0173F901BBFCA1B00790213 /* gage Frame.png */; };
+		C0173F931BBFD7DB00790213 /* NEXT.png in Resources */ = {isa = PBXBuildFile; fileRef = C0173F921BBFD7DB00790213 /* NEXT.png */; };
+		C0173F951BBFDDFA00790213 /* Syllable UIG.png in Resources */ = {isa = PBXBuildFile; fileRef = C0173F941BBFDDFA00790213 /* Syllable UIG.png */; };
+		C0173F971BBFDE0200790213 /* Syllable UIR.png in Resources */ = {isa = PBXBuildFile; fileRef = C0173F961BBFDE0200790213 /* Syllable UIR.png */; };
+		C0173F991BBFDECB00790213 /* Syllable UIM.png in Resources */ = {isa = PBXBuildFile; fileRef = C0173F981BBFDECB00790213 /* Syllable UIM.png */; };
+		C0173F9B1BBFDED800790213 /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = C0173F9A1BBFDED800790213 /* Title.png */; };
+		C0173F9D1BBFE6A700790213 /* Title2.png in Resources */ = {isa = PBXBuildFile; fileRef = C0173F9C1BBFE6A700790213 /* Title2.png */; };
+		C0173F9F1BBFE6B100790213 /* window.png in Resources */ = {isa = PBXBuildFile; fileRef = C0173F9E1BBFE6B100790213 /* window.png */; };
 		C01A71951B7AF80E00DC234B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01A71941B7AF80E00DC234B /* AppDelegate.swift */; };
-		C01A71971B7AF80E00DC234B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01A71961B7AF80E00DC234B /* ViewController.swift */; };
 		C01A719A1B7AF80E00DC234B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01A71981B7AF80E00DC234B /* Main.storyboard */; };
 		C01A719C1B7AF80E00DC234B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01A719B1B7AF80E00DC234B /* Images.xcassets */; };
 		C01A719F1B7AF80E00DC234B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01A719D1B7AF80E00DC234B /* LaunchScreen.xib */; };
 		C01A71AB1B7AF80E00DC234B /* SyllableQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01A71AA1B7AF80E00DC234B /* SyllableQuizTests.swift */; };
+		C01A71B51B7AF8AE00DC234B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01A71B41B7AF8AE00DC234B /* StartViewController.swift */; };
+		C01A71B71B7AF8BC00DC234B /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01A71B61B7AF8BC00DC234B /* QuizViewController.swift */; };
+		C01A71B91B7B073A00DC234B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01A71B81B7B073A00DC234B /* ResultViewController.swift */; };
+		C02814D21BBB736B00370F88 /* Gage.png in Resources */ = {isa = PBXBuildFile; fileRef = C02814D11BBB736B00370F88 /* Gage.png */; };
+		C08781661BC3A0B1004E8CA4 /* BackF.png in Resources */ = {isa = PBXBuildFile; fileRef = C08781651BC3A0B1004E8CA4 /* BackF.png */; };
+		C08781681BC3A536004E8CA4 /* FBLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = C08781671BC3A536004E8CA4 /* FBLogoWhite.png */; };
+		C0B29F671BC6285300DB986B /* LS5.png in Resources */ = {isa = PBXBuildFile; fileRef = C0B29F661BC6285300DB986B /* LS5.png */; settings = {ASSET_TAGS = (); }; };
+		C0B732FF1BD75F0E0051F23D /* Main3.5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B732FE1BD75F0E0051F23D /* Main3.5.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C0B733011BD760E20051F23D /* Badge.png in Resources */ = {isa = PBXBuildFile; fileRef = C0B733001BD760E20051F23D /* Badge.png */; settings = {ASSET_TAGS = (); }; };
+		C0B733031BD7671E0051F23D /* UIMI.png in Resources */ = {isa = PBXBuildFile; fileRef = C0B733021BD7671E0051F23D /* UIMI.png */; settings = {ASSET_TAGS = (); }; };
+		C0B733051BD7682D0051F23D /* Sub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B733041BD7682D0051F23D /* Sub.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C0CDF19E1B85B66800FBD489 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = C0CDF19D1B85B66800FBD489 /* AppIcon.appiconset */; };
+		C0D28BA21BC37ECC00553647 /* iconforupload.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D28BA11BC37ECC00553647 /* iconforupload.png */; };
+		C0D28BA41BC3804C00553647 /* Syllable UIS.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D28BA31BC3804C00553647 /* Syllable UIS.png */; };
+		C0D28BA61BC3810D00553647 /* TwitterLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D28BA51BC3810D00553647 /* TwitterLogoWhite.png */; };
+		C0D28BAC1BC38F6E00553647 /* star0.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D28BAB1BC38F6E00553647 /* star0.png */; };
+		C0D28BAE1BC38FCF00553647 /* star01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D28BAD1BC38FCF00553647 /* star01.png */; };
+		C0D28BB01BC3904700553647 /* star02.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D28BAF1BC3904700553647 /* star02.png */; };
+		C0D28BB21BC3904E00553647 /* star03.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D28BB11BC3904E00553647 /* star03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +54,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C0173F8C1BBFB74E00790213 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		C0173F8E1BBFB75B00790213 /* START.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = START.png; sourceTree = "<group>"; };
+		C0173F901BBFCA1B00790213 /* gage Frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gage Frame.png"; sourceTree = "<group>"; };
+		C0173F921BBFD7DB00790213 /* NEXT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NEXT.png; sourceTree = "<group>"; };
+		C0173F941BBFDDFA00790213 /* Syllable UIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Syllable UIG.png"; sourceTree = "<group>"; };
+		C0173F961BBFDE0200790213 /* Syllable UIR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Syllable UIR.png"; sourceTree = "<group>"; };
+		C0173F981BBFDECB00790213 /* Syllable UIM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Syllable UIM.png"; sourceTree = "<group>"; };
+		C0173F9A1BBFDED800790213 /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title.png; sourceTree = "<group>"; };
+		C0173F9C1BBFE6A700790213 /* Title2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title2.png; sourceTree = "<group>"; };
+		C0173F9E1BBFE6B100790213 /* window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = window.png; sourceTree = "<group>"; };
 		C01A718F1B7AF80E00DC234B /* SyllableQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyllableQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01A71931B7AF80E00DC234B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C01A71941B7AF80E00DC234B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C01A71961B7AF80E00DC234B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C01A71991B7AF80E00DC234B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C01A719B1B7AF80E00DC234B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C01A719E1B7AF80E00DC234B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C01A71A41B7AF80E00DC234B /* SyllableQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyllableQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01A71A91B7AF80E00DC234B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C01A71AA1B7AF80E00DC234B /* SyllableQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllableQuizTests.swift; sourceTree = "<group>"; };
+		C01A71B41B7AF8AE00DC234B /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		C01A71B61B7AF8BC00DC234B /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		C01A71B81B7B073A00DC234B /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		C02814D11BBB736B00370F88 /* Gage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gage.png; sourceTree = "<group>"; };
+		C08781651BC3A0B1004E8CA4 /* BackF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackF.png; sourceTree = "<group>"; };
+		C08781671BC3A536004E8CA4 /* FBLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBLogoWhite.png; sourceTree = "<group>"; };
+		C0B29F661BC6285300DB986B /* LS5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LS5.png; sourceTree = "<group>"; };
+		C0B732FE1BD75F0E0051F23D /* Main3.5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main3.5.storyboard; sourceTree = "<group>"; };
+		C0B733001BD760E20051F23D /* Badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Badge.png; sourceTree = "<group>"; };
+		C0B733021BD7671E0051F23D /* UIMI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIMI.png; sourceTree = "<group>"; };
+		C0B733041BD7682D0051F23D /* Sub.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sub.storyboard; sourceTree = "<group>"; };
+		C0CDF19D1B85B66800FBD489 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		C0D28BA11BC37ECC00553647 /* iconforupload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconforupload.png; sourceTree = "<group>"; };
+		C0D28BA31BC3804C00553647 /* Syllable UIS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Syllable UIS.png"; sourceTree = "<group>"; };
+		C0D28BA51BC3810D00553647 /* TwitterLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwitterLogoWhite.png; sourceTree = "<group>"; };
+		C0D28BA81BC387CA00553647 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		C0D28BAB1BC38F6E00553647 /* star0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star0.png; sourceTree = "<group>"; };
+		C0D28BAD1BC38FCF00553647 /* star01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star01.png; sourceTree = "<group>"; };
+		C0D28BAF1BC3904700553647 /* star02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star02.png; sourceTree = "<group>"; };
+		C0D28BB11BC3904E00553647 /* star03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +135,23 @@
 			isa = PBXGroup;
 			children = (
 				C01A71941B7AF80E00DC234B /* AppDelegate.swift */,
-				C01A71961B7AF80E00DC234B /* ViewController.swift */,
+				C01A71B41B7AF8AE00DC234B /* StartViewController.swift */,
+				C01A71B61B7AF8BC00DC234B /* QuizViewController.swift */,
+				C01A71B81B7B073A00DC234B /* ResultViewController.swift */,
+				C0B732FE1BD75F0E0051F23D /* Main3.5.storyboard */,
+				C0B733041BD7682D0051F23D /* Sub.storyboard */,
 				C01A71981B7AF80E00DC234B /* Main.storyboard */,
 				C01A719B1B7AF80E00DC234B /* Images.xcassets */,
 				C01A719D1B7AF80E00DC234B /* LaunchScreen.xib */,
+				C0B733001BD760E20051F23D /* Badge.png */,
+				C0B29F661BC6285300DB986B /* LS5.png */,
+				C0173F941BBFDDFA00790213 /* Syllable UIG.png */,
+				C0173F981BBFDECB00790213 /* Syllable UIM.png */,
+				C0173F961BBFDE0200790213 /* Syllable UIR.png */,
+				C0D28BA31BC3804C00553647 /* Syllable UIS.png */,
+				C0B733021BD7671E0051F23D /* UIMI.png */,
+				C0B29F611BC6256300DB986B /* Component */,
+				C0CDF19D1B85B66800FBD489 /* AppIcon.appiconset */,
 				C01A71921B7AF80E00DC234B /* Supporting Files */,
 			);
 			path = SyllableQuiz;
@@ -110,6 +180,29 @@
 				C01A71A91B7AF80E00DC234B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0B29F611BC6256300DB986B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				C02814D11BBB736B00370F88 /* Gage.png */,
+				C08781651BC3A0B1004E8CA4 /* BackF.png */,
+				C0173F901BBFCA1B00790213 /* gage Frame.png */,
+				C0173F8C1BBFB74E00790213 /* button.png */,
+				C08781671BC3A536004E8CA4 /* FBLogoWhite.png */,
+				C0173F8E1BBFB75B00790213 /* START.png */,
+				C0173F921BBFD7DB00790213 /* NEXT.png */,
+				C0D28BAB1BC38F6E00553647 /* star0.png */,
+				C0D28BAD1BC38FCF00553647 /* star01.png */,
+				C0D28BAF1BC3904700553647 /* star02.png */,
+				C0D28BB11BC3904E00553647 /* star03.png */,
+				C0173F9A1BBFDED800790213 /* Title.png */,
+				C0173F9C1BBFE6A700790213 /* Title2.png */,
+				C0D28BA51BC3810D00553647 /* TwitterLogoWhite.png */,
+				C0173F9E1BBFE6B100790213 /* window.png */,
+				C0D28BA11BC37ECC00553647 /* iconforupload.png */,
+			);
+			name = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +249,8 @@
 		C01A71871B7AF80E00DC234B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "矢吹祐真";
 				TargetAttributes = {
@@ -192,9 +287,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0D28BA61BC3810D00553647 /* TwitterLogoWhite.png in Resources */,
+				C0173F911BBFCA1B00790213 /* gage Frame.png in Resources */,
+				C0D28BA21BC37ECC00553647 /* iconforupload.png in Resources */,
 				C01A719A1B7AF80E00DC234B /* Main.storyboard in Resources */,
+				C08781681BC3A536004E8CA4 /* FBLogoWhite.png in Resources */,
+				C0B733031BD7671E0051F23D /* UIMI.png in Resources */,
+				C0173F991BBFDECB00790213 /* Syllable UIM.png in Resources */,
+				C0B733051BD7682D0051F23D /* Sub.storyboard in Resources */,
 				C01A719F1B7AF80E00DC234B /* LaunchScreen.xib in Resources */,
+				C0B732FF1BD75F0E0051F23D /* Main3.5.storyboard in Resources */,
+				C0D28BB21BC3904E00553647 /* star03.png in Resources */,
+				C0B29F671BC6285300DB986B /* LS5.png in Resources */,
+				C0173F971BBFDE0200790213 /* Syllable UIR.png in Resources */,
+				C02814D21BBB736B00370F88 /* Gage.png in Resources */,
+				C0D28BB01BC3904700553647 /* star02.png in Resources */,
+				C0173F8F1BBFB75B00790213 /* START.png in Resources */,
+				C0173F931BBFD7DB00790213 /* NEXT.png in Resources */,
+				C0D28BA41BC3804C00553647 /* Syllable UIS.png in Resources */,
+				C0CDF19E1B85B66800FBD489 /* AppIcon.appiconset in Resources */,
+				C0173F8D1BBFB74E00790213 /* button.png in Resources */,
 				C01A719C1B7AF80E00DC234B /* Images.xcassets in Resources */,
+				C0D28BAE1BC38FCF00553647 /* star01.png in Resources */,
+				C0173F9B1BBFDED800790213 /* Title.png in Resources */,
+				C0173F9F1BBFE6B100790213 /* window.png in Resources */,
+				C0173F951BBFDDFA00790213 /* Syllable UIG.png in Resources */,
+				C0D28BAC1BC38F6E00553647 /* star0.png in Resources */,
+				C08781661BC3A0B1004E8CA4 /* BackF.png in Resources */,
+				C0173F9D1BBFE6A700790213 /* Title2.png in Resources */,
+				C0B733011BD760E20051F23D /* Badge.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +333,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C01A71971B7AF80E00DC234B /* ViewController.swift in Sources */,
+				C01A71B71B7AF8BC00DC234B /* QuizViewController.swift in Sources */,
 				C01A71951B7AF80E00DC234B /* AppDelegate.swift in Sources */,
+				C01A71B51B7AF8AE00DC234B /* StartViewController.swift in Sources */,
+				C01A71B91B7B073A00DC234B /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +363,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C01A71991B7AF80E00DC234B /* Base */,
+				C0D28BA81BC387CA00553647 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -317,6 +441,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuma Yabuki (4Q8JEHWGAU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -342,9 +467,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SyllableQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -352,9 +481,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuma Yabuki (4Q8JEHWGAU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SyllableQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -411,6 +546,7 @@
 				C01A71B01B7AF80E00DC234B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C01A71B11B7AF80E00DC234B /* Build configuration list for PBXNativeTarget "SyllableQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +555,7 @@
 				C01A71B31B7AF80E00DC234B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

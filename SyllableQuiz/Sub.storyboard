@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Ov-1T-mit">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="CgX-Za-yZb">
+            <objects>
+                <viewController id="9Ov-1T-mit" customClass="StartViewController" customModule="SyllableQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KDf-XQ-xVD"/>
+                        <viewControllerLayoutGuide type="bottom" id="vod-o8-ux0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DFq-Lt-GSc">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UIMI.png" translatesAutoresizingMaskIntoConstraints="NO" id="3u6-V3-kR4">
+                                <rect key="frame" x="-102" y="0.0" width="955" height="1024"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="制限時間以内にすべての問題を解いて、合格を目指せ" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4k2-Ug-0GP">
+                                <rect key="frame" x="236" y="512" width="296" height="78"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="音節の数が正しいものを選択肢から選ぼう" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="16U-B1-O36">
+                                <rect key="frame" x="226" y="373" width="316" height="107"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I28-92-gMQ">
+                                <rect key="frame" x="166" y="750" width="449" height="128"/>
+                                <state key="normal" image="START.png"/>
+                                <connections>
+                                    <action selector="goToNext:" destination="ayq-5N-Xfp" eventType="touchUpInside" id="hz5-aM-8hM"/>
+                                    <segue destination="ayq-5N-Xfp" kind="presentation" id="xr1-ue-YiB"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Title2.png" translatesAutoresizingMaskIntoConstraints="NO" id="45D-AJ-vym">
+                                <rect key="frame" x="187" y="47" width="377" height="336"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="twU-L7-crs" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="934"/>
+        </scene>
+        <!--Quiz View Controller-->
+        <scene sceneID="ZOr-N0-OSX">
+            <objects>
+                <viewController id="ayq-5N-Xfp" customClass="QuizViewController" customModule="SyllableQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oyl-M1-L8G"/>
+                        <viewControllerLayoutGuide type="bottom" id="ysP-l4-Rmc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NpF-Yx-dV0">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UIMI.png" translatesAutoresizingMaskIntoConstraints="NO" id="jf2-eR-q54">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Title2.png" translatesAutoresizingMaskIntoConstraints="NO" id="OJE-Ur-SBU">
+                                <rect key="frame" x="197" y="56" width="377" height="336"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="問題文" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkT-aq-B6P">
+                                <rect key="frame" x="120" y="497" width="529" height="119"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8p-ed-bVx">
+                                <rect key="frame" x="97" y="672" width="131" height="120"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
+                                <state key="normal" title="1" backgroundImage="button.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="choiceAnswer:" destination="ayq-5N-Xfp" eventType="touchUpInside" id="efg-GH-YD1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKl-SC-f1x">
+                                <rect key="frame" x="318" y="671" width="133" height="121"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
+                                <state key="normal" title="2" backgroundImage="button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="choiceAnswer:" destination="ayq-5N-Xfp" eventType="touchUpInside" id="6wg-4e-NxW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K1c-6L-GCI">
+                                <rect key="frame" x="536" y="672" width="132" height="120"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
+                                <state key="normal" title="3" backgroundImage="button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="choiceAnswer:" destination="ayq-5N-Xfp" eventType="touchUpInside" id="Jrg-hq-SWL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cg-gw-4kT">
+                                <rect key="frame" x="159" y="671" width="451" height="128"/>
+                                <state key="normal" image="NEXT.png"/>
+                                <connections>
+                                    <action selector="goToNext:" destination="ayq-5N-Xfp" eventType="touchUpInside" id="Xly-z3-Z7I"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahe-MP-5xf">
+                                <rect key="frame" x="101" y="878" width="566" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="window.png" translatesAutoresizingMaskIntoConstraints="NO" id="BP4-l4-Yh7">
+                                <rect key="frame" x="321" y="360" width="130" height="125"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udK-wq-Rpn">
+                                <rect key="frame" x="348" y="384" width="77" height="78"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="55"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rZG-Gm-7Jq"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="backImage" destination="jf2-eR-q54" id="IPM-2E-mzO"/>
+                        <outlet property="choiceButton1" destination="n8p-ed-bVx" id="B68-ai-qkt"/>
+                        <outlet property="choiceButton2" destination="PKl-SC-f1x" id="xEQ-dB-mtJ"/>
+                        <outlet property="choiceButton3" destination="K1c-6L-GCI" id="2IC-fN-ZEH"/>
+                        <outlet property="label" destination="ahe-MP-5xf" id="AGx-Cj-RGx"/>
+                        <outlet property="nextButton" destination="0cg-gw-4kT" id="Y46-vE-63f"/>
+                        <outlet property="quizLabel" destination="MkT-aq-B6P" id="NOZ-Ni-m7A"/>
+                        <outlet property="timerLabel" destination="udK-wq-Rpn" id="gyJ-Wl-YnQ"/>
+                        <segue destination="9Ov-1T-mit" kind="presentation" identifier="toStartView" id="sii-4l-c5h"/>
+                        <segue destination="ePf-eR-Mke" kind="presentation" identifier="toResultView" id="DTi-NJ-5SC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="btP-aK-h16" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1138" y="934"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="xzW-Tk-2K4">
+            <objects>
+                <viewController id="ePf-eR-Mke" customClass="ResultViewController" customModule="SyllableQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nqz-Ih-9ym"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zfi-Vq-43G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EI9-IC-Qgn">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Syllable UIM.png" translatesAutoresizingMaskIntoConstraints="NO" id="grh-w4-24z">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Title2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tz3-Em-5h1">
+                                <rect key="frame" x="196" y="49" width="377" height="336"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="合格回数は\(clearTimes)回です" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RqN-7o-8ul">
+                                <rect key="frame" x="144" y="596" width="480" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9O-DM-vur">
+                                <rect key="frame" x="158" y="699" width="106" height="106"/>
+                                <state key="normal" backgroundImage="TwitterLogoWhite.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="postTwitter:" destination="ePf-eR-Mke" eventType="touchUpInside" id="bx9-Me-rll"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gga-Jc-kcU">
+                                <rect key="frame" x="158" y="826" width="452" height="128"/>
+                                <state key="normal" backgroundImage="BackF.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9Ov-1T-mit" kind="presentation" modalTransitionStyle="crossDissolve" id="IqB-Lr-6zr"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star0.png" translatesAutoresizingMaskIntoConstraints="NO" id="P1Q-YW-7r1">
+                                <rect key="frame" x="194" y="380" width="381" height="130"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHI-er-NCT">
+                                <rect key="frame" x="519" y="706" width="91" height="91"/>
+                                <state key="normal" backgroundImage="FBLogoWhite.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="postFacebook:" destination="ePf-eR-Mke" eventType="touchUpInside" id="B3p-Aq-Wgq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ランクはビギナーです" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jF6-LG-Alc">
+                                <rect key="frame" x="144" y="647" width="480" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="正解数は\(correctAnswer)問です" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qP-Ng-yDn">
+                                <rect key="frame" x="144" y="545" width="480" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Badge.png" translatesAutoresizingMaskIntoConstraints="NO" id="slL-JD-ZPx">
+                                <rect key="frame" x="581" y="210" width="168" height="219"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="badge" destination="slL-JD-ZPx" id="6hM-YP-6hi"/>
+                        <outlet property="clearImage" destination="P1Q-YW-7r1" id="8bm-ZG-M9V"/>
+                        <outlet property="clearTimesLabel" destination="RqN-7o-8ul" id="qXo-Z5-3pV"/>
+                        <outlet property="rankImage" destination="grh-w4-24z" id="Vbn-l1-oOl"/>
+                        <outlet property="rankLabel" destination="jF6-LG-Alc" id="X97-mX-2FI"/>
+                        <outlet property="scoreLabel" destination="3qP-Ng-yDn" id="8rU-X4-uU6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dM8-M7-EpA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2059" y="934"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackF.png" width="1438" height="434"/>
+        <image name="Badge.png" width="616" height="779"/>
+        <image name="FBLogoWhite.png" width="1024" height="1024"/>
+        <image name="NEXT.png" width="1434" height="428"/>
+        <image name="START.png" width="1430" height="427"/>
+        <image name="Syllable UIM.png" width="2667" height="4733"/>
+        <image name="Title2.png" width="1436" height="654"/>
+        <image name="TwitterLogoWhite.png" width="1687" height="1687"/>
+        <image name="UIMI.png" width="768" height="1024"/>
+        <image name="button.png" width="562" height="562"/>
+        <image name="star0.png" width="1789" height="467"/>
+        <image name="window.png" width="557" height="557"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="sii-4l-c5h"/>
+    </inferredMetricsTieBreakers>
+</document>
